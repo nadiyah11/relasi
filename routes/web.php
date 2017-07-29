@@ -25,3 +25,8 @@ Route::get('/orangtua', function () {
     	}
     }
 });
+
+Route::get('/percobaan', 'MyController@index');
+Route::get('/percobaan2', 'MyController@tampilan');
+Route::get('/percobaan3', 'MyController@tampilmodel');
+Route::get('/percobaan4', 'MyController@tampilmodel1');
