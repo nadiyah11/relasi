@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="row">
+<div class="container">
 	<center><h1>Data orangtua</h1></center>
 	<div class="panel panel-primary">
 	<div class="panel-heading">Data orangtua
@@ -38,6 +39,7 @@
 			<button type="reset" class="btn btn-danger">Reset</button>
 		</div>
 	</form>
+	</div>
 	</div>
 	</div>
 	</div>

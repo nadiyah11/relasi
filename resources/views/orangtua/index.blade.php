@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('content')
+
 <div class="row">
+<div class="container">
 	<center><h1>Data orangtua</h1></center>
 	<div class="panel panel-primary">
 	<div class="panel-heading">Data orangtua
@@ -55,5 +57,6 @@
 	</table>	
 	</div>
 	</div>
+</div>
 </div>
 @endsection
