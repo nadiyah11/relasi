@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class author extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         $this->call(author::class);
+        //
+        $post=[
+        ['name'=>'nadiyah'],
+     
+        ];
+
+        DB::table('authors')->insert($post);
     }
 }
